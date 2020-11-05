@@ -6,6 +6,11 @@ home:
     href: https://r-pkgs.org/man.html
 
 reference:
+- title: Roxygen tags
+  contents:
+  - starts_with("@")
+  - -update_collate
+
 - title: Roclets
   contents:
   - ends_with("roclet")
